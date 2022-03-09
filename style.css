@@ -1,0 +1,54 @@
+/* Bulma by Jeremy Thomas
+Copyright (c) 2016 Jeremy Thomas
+Licensed under MIT (https://github.com/jgthms/bulma/blob/master/LICENSE) */
+
+#start {
+    float: left;
+    width: 325px;
+    margin-bottom: 35px;
+}
+
+#stop {
+    float: right;
+    width: 325px;
+    margin-bottom: 35px;
+}
+
+#yoyakuword {
+    width: 325px;
+    float: left;
+}
+
+#keshiword {
+    float: right;
+    width: 325px;
+}
+
+#list {
+    resize: none;
+    height: 300px;
+}
+
+#enable_obs {
+    margin: 15px;
+}
+
+#status {
+    float: right;
+    margin-right: 10px;
+}
+
+#address {
+    width: 325px;
+    float: left;
+}
+
+#pass {
+    float: right;
+    width: 325px;
+}
+
+#statobs {
+    float: right;
+    margin: 10px;
+}

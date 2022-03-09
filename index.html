@@ -1,0 +1,43 @@
+<!-- YoyakuLister
+Copyright © 2022 Twist
+Licensed under MIT (https://opensource.org/licenses/mit-license.php) -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>YoyakuLister</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="obs-websocket.js"></script>
+</head>
+
+<body>
+    <input type="text" class="input" id="chid" placeholder="チャンネルID...">
+    <input type="text" class="input" id="yoyakuword" placeholder="予約ワード...">
+    <input type="text" class="input" id="keshiword" placeholder="予約取り消しワード...">
+    <button class="button is-info is-light" id="start" onclick="yoyakustart()">開始</button>
+    <button class="button is-danger is-light" id="stop" onclick="yoyakustop()">停止</button>
+    <div class="box" id="listelem">
+        <textarea class="textarea" id="list" readonly></textarea>
+        <label class="checkbox">
+            <input type="checkbox" id="enable_input">
+            直接編集
+        </label>
+        <p id="status">状態：停止中</p>
+    </div>
+    <p style="margin-left: 15px; font-weight: bold;">OBS連動</p>
+    <div id="obs">
+        <input type="text" class="input" id="address" placeholder="ポート...">
+        <input type="password" class="input" id="pass" placeholder="パスワード...">
+        <input type="text" class="input" id="sourcename" placeholder="テキストソース名(FreeType2)...">
+        <button class="button" id="obsstart" onclick="obsstart()">OBSに接続...</button>
+        <button class="button" id="obsstop" onclick="obsstop()">接続解除...</button>
+        <p id="statobs">状態：接続解除中</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
