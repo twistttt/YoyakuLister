@@ -25,7 +25,7 @@
         },
         "win": {
             "icon": "assets/win/icon_win.ico",
-            "target": "nsis"
+            "target": "portable"
         },
         "nsis": {
             "oneClick": false,
