@@ -20,6 +20,6 @@ Youtubeライブでの順番管理が便利になるツールです！
 
 ・Windowsを持っていないのでWindowsでの動作確認ができていません。申し訳ないです
 
-・バグ報告はhttps://twitter.com/Twistnandesu までお願いします！(反応は遅れるかも)
+・バグ報告等はhttps://twitter.com/Twistnandesu までお願いします！(反応は遅れるかも)
 <!-- <img width="648" alt="5" src="https://user-images.githubusercontent.com/72329083/157361012-2dd0943c-0202-40f5-9344-40a8a29be82f.png"> -->
 
