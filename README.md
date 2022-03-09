@@ -1,0 +1,2 @@
+# YoyakuLister
+Youtubeライブで予約順を管理できるツール
