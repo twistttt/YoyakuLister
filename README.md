@@ -11,5 +11,15 @@ Youtubeライブでの順番管理が便利になるツールです！
 ・OBSへの出力
 
 # Usage
-<img width="648" alt="5" src="https://user-images.githubusercontent.com/72329083/157361012-2dd0943c-0202-40f5-9344-40a8a29be82f.png">
-__チャンネルID__
+ぼちぼち作成中
+
+# Note
+・一回の起動で「開始」ボタンを2回以上押さないでください(なんか名前がふえちゃいます)
+
+・直接編集時、チェックボックスを解除すると編集した内容が反映されます。
+
+・Windowsを持っていないのでWindowsでの動作確認ができていません。申し訳ないです
+
+・バグ報告はhttps://twitter.com/Twistnandesu までお願いします！(反応は遅れるかも)
+<!-- <img width="648" alt="5" src="https://user-images.githubusercontent.com/72329083/157361012-2dd0943c-0202-40f5-9344-40a8a29be82f.png"> -->
+
