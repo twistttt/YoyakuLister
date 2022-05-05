@@ -10,7 +10,7 @@ const { LiveChat } = require("youtube-chat")
 
 const obs = new OBSWebSocket();
 
-var liveChat, yoyakuword, keshiword, chid, list, eibox, yoyakuretsu;
+var liveChat, yoyakuword, keshiword, liveid, list, eibox, yoyakuretsu;
 var address, pass, sourcename;
 var is_connected = false;
 var sankasya = new Array();
@@ -20,8 +20,12 @@ eibox = document.getElementById('enable_input');
 function yoyakustart() {
     yoyakuword = document.getElementById('yoyakuword').value;
     keshiword = document.getElementById('keshiword').value;
-    chid = document.getElementById('chid').value;
-    liveChat = new LiveChat({ channelId: chid });
+    liveid = document.getElementById('liveid').value;
+    liveChat = null;
+    sankasya = [];
+    yoyakuretsu = ""
+    list.value = "";
+    liveChat = new LiveChat({ liveId: liveid });
     liveChat.start();
 
     liveChat.on("chat", (chatItem) => {
