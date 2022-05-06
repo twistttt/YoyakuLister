@@ -11,14 +11,11 @@ Youtubeライブでの順番管理が便利になるツールです！
 ・OBSへの出力
 
 # Easy Usage
-<img width="632" alt="6" src="https://user-images.githubusercontent.com/72329083/157401811-24ec9c4a-1912-407d-8897-40432b2f32f2.png">
-
+<img width="632" alt="157401811-24ec9c4a-1912-407d-8897-40432b2f32f2" src="https://user-images.githubusercontent.com/72329083/167083979-84ca81c0-0a20-4ba7-a0e2-230e66f68b07.png">
 基本的にはこんな感じです
 
 # Note
 ・OBSへの出力機能を使うには[obs-websocket](https://github.com/obsproject/obs-websocket)をインストールする必要があります
-
-・__一回の起動で「開始」ボタンを2回以上押さないでください(なんか名前がふえちゃいます)__
 
 ・__直接編集時、チェックボックスを解除すると編集した内容が反映されます。(大事)__
 
